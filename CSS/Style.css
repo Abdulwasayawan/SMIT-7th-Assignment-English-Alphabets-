@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.title{
+    background-color: yellow;
+    color:rgb(179, 7, 36) ;
+    text-align: center;
+    padding: 0.8rem;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.Alphabets-links {
+  /* border: 1px solid red; */
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+.row {
+  display: flex;
+}
+.lastRow{
+    margin-bottom: 2rem;
+}
+.border {
+  width: 3rem;
+  height: 3rem;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  padding: 1rem;
+  background: rgb(179, 7, 36);
+  margin: 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  box-shadow: inset 5px 5px 25px black;
+}
+a:hover {
+    color: yellow;
+}
+.border:hover{
+    background-color:rgb(146, 5, 29) ;
+}
+.border-top{
+    border-top:1px solid black ;
+}
+.text-form p{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.latter-red{
+    color: red;
+}
+.alphabat{
+    /* margin-top: rem; */
+    height:327px ;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.alphabat{
+    /* height:100vh ; */
+    /* width: 100vh; */
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40% 0%;
+}
+#D{
+    background-color:rgb(254,79,83) ;
+    color: white;
+}
+#E{
+    background-color: rgb(21,27,45);
+    color: white;
+}
+#F{
+    background-color: rgb(0,61,20);
+    color: white;
+}
+#I{
+    background-color: rgb(1,6,10);
+    color: white;
+}
+#I p{
+    font-size: 4.5rem;
+}
+#J{
+    background-color: rgb(27,27,27);
+    color: white;
+}
+#G{
+    background-color: rgb(175,174,179);
+    color: black;
+}
+#L{
+    background-color:rgb(98,209,252);
+    color: black;
+}
+#N{
+    background-color:rgb(216,217,203);
+    color: black;
+}
+#Q{
+    background-color:white;
+    color: black;
+}
+#T{
+    background-color:rgb(249,248,253);
+    color: black;
+}
+#H p{
+    font-size: 4.3rem;
+}
